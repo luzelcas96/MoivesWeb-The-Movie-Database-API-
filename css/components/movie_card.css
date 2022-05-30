@@ -1,0 +1,54 @@
+.card-movie {
+    max-width: 180px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+}
+
+.card-movie:hover {
+    transform: scale(1.05);
+}
+
+.card-movie__image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 180px;
+    height: 265px;
+    object-fit: cover;
+}
+
+.card-movie__rating {
+    background-color: rgb(14, 37, 65);
+    position: absolute;
+    left: 1rem;
+    top: 68%;
+    color: white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    font-size: 17px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.rating__icon {
+    width: 19px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(249deg) brightness(100%) contrast(104%);
+}
+
+.card-movie__title {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.card-movie__date {
+    font-size: 15px;
+    margin: 10px 20px;
+}
