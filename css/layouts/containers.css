@@ -1,0 +1,13 @@
+.container {
+    margin: 2rem;
+}
+
+.container-movies {
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
